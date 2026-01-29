@@ -5,51 +5,43 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFEBEC"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Did you know?"
-        android:textSize="14sp"
+        android:text="Did you know?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.254" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="180dp"
-        android:layout_height="74dp"
-        android:background="#FDFBFB"
-        android:fontFamily="serif"
-        android:shadowColor="#6B5959"
-        android:textColor="#F50F0E0E"
-        android:textSize="16sp"
+        android:id="@+id/txtQoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIVIA"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintVertical_bias="0.424" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="86dp"
-        android:layout_height="54dp"
-        android:background="#673AB7"
+        android:id="@+id/nxtbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Next"
-        android:textColor="#FDFBFB"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintTop_toBottomOf="@+id/txtQoute"
+        app:layout_constraintVertical_bias="0.679" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
